@@ -1,0 +1,31 @@
+### GET Score
+GET http://localhost:8000/scores
+
+
+### GET Score by id
+GET http://localhost:8000/scores/1
+
+
+### POST Score
+POST http://localhost:8000/scores
+Content-Type: application/json
+
+{
+  "value": 8,
+  "student_id": 1
+}
+
+
+### PUT Score
+PUT http://localhost:8000/scores/1
+Content-Type: application/json
+
+{
+  "value": 10,
+  "student_id": 1
+}
+
+
+### DELETE Score
+DELETE http://localhost:8000/scores/1
+

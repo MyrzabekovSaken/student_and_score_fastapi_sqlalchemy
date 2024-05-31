@@ -1,0 +1,28 @@
+### GET Students
+GET http://localhost:8000/students
+
+
+### GET Student by id
+GET http://localhost:8000/students/1
+
+
+### POST Student
+POST http://localhost:8000/students
+Content-Type: application/json
+
+{
+  "name": "Jane"
+}
+
+
+### PUT Student
+PUT http://localhost:8000/students/1
+Content-Type: application/json
+
+{
+  "name": "John"
+}
+
+
+### DELETE Student
+DELETE http://localhost:8000/students/1
